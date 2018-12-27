@@ -1,0 +1,40 @@
+
+.main{
+    display: grid;
+}
+
+.cal-weeks{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);   
+    grid-auto-rows: 60px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.cal-weeks > div{
+    
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.cal-header1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cal-header-left img{
+    width: 100px
+}
+.cal-header-right img {
+    width: 100px
+}
+.cal-header-middle {
+    margin-top: 40px;
+}
+
+.cal-cell-disabled{  
+    color: gray;
+}
+.cal-cell-sameday{   
+    font-weight: bold
+}
